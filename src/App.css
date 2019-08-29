@@ -1,33 +1,243 @@
-.App {
-  text-align: center;
+.item-card-container {
+
 }
 
-.App-logo {
-  animation: App-logo-spin infinite 20s linear;
-  height: 40vmin;
-  pointer-events: none;
+.listing-card {
+  border-style: solid;
+  border-radius: 10px;
+  border-width: 0.5px;
+  border-color: rgba(150,150,150,0.5);
+  margin: 2vw;
+  padding: 2vw;
+  background-color: #c1440e;
+  display:grid;
+  grid-template-columns: .7fr 1fr;
+  grid-gap: 2vw;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.image-wrapper {
+
+}
+
+.text-wrapper {
+  height: 200px;
+}
+
+.navbar {
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  flex-flow: nowrap;
+  flex-direction: row;
+  justify-content: space-between;
+  background-color: #451804;
+  list-style-type: none;
+  text-align: center;
+  font-size: 15px;
+  padding: 10px;
 }
 
-.App-link {
-  color: #61dafb;
+.blocktext {
+    text-align: center;
+    font-size: 80px;
+    font: Impact, Charcoal, sans-serif;
+    color: #AB1231;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+.header {
+  margin-top: 100px;
+  background: #c1440e;
+  text-align: center;
+  font-size: 35px;
+  color: 	#fda600;
+}
+
+.price-holder, .purchased-buttons {
+  display:inline-block;
+}
+
+
+.image {
+width:100%;
+border: 3px solid white;
+}
+
+.banner {
+  width: 100%;
+}
+
+img.displayed {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
   }
-  to {
-    transform: rotate(360deg);
-  }
+
+.search {
+  margin-right: flex;
+}
+
+.notloggin {
+  height: 55px;
+}
+
+
+.login {
+  background-color: #f0e7e7;
+  padding: 10px;
+  width: 100%;
+  height: 55px;
+  display: flex;
+}
+
+
+
+form {
+  display: inline-block;
+}
+
+.form2 {
+  text-align: center;
+  margin: 0 auto;
+  width: 400px;
+  height: 45px;
+  padding-bottom: 100px;
+  display: block;
+}
+
+body {
+  background: #f0e7e7;
+  bottom: 100px solid transparent;
+}
+
+label[type=form]{
+  font-size: 30px;
+
+}
+
+
+.footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 2.5rem;
+  color: red;
+}
+
+
+.h1 {
+  position: absolute;
+  left: 30px;
+  width: 175px;
+  height: 30px;
+  display: inline-block;
+  margin-top: 95px;
+  color: #AB1231;
+}
+
+.h2 {
+  color: #f0e7e7;
+  text-transform: uppercase;
+}
+
+.price{
+  color: #f0e7e7;
+
+}
+
+.button {
+  margin: 3px;
+  background-color: #AB1231;
+  color: #fda600;
+  padding: 10px 8px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-left: 15px;
+  font-weight: bold;
+}
+
+.button1 {
+  position: relative;
+  left: 210px;
+  width: 75px;
+  height: 32px;
+  background-color: #AB1231;
+  color: #fda600;
+  padding: 10px 8px ;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-left: 10px;
+  font-weight: bold;
+}
+
+.button2 {
+  margin: 2px;
+  background-color: #AB1231;
+  color: #fda600;
+  padding: 10px 8px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.button3 {
+  margin: 3px;
+  background-color: #AB1231;
+  color: #fda600;
+  padding: 10px 8px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+input[type=text], select {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 12px 0;
+  display: inline-block;
+  border: 1px solid #fda600;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+p {
+  font-size: 18px;
+}
+
+textarea {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #fda600;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+input[type=submit] {
+  position: relative;
+  left: 220px;
+  width: 100%;
+  height: 30px;
+  background-color: #AB1231;
+  color: #fda600;
+  padding: 1px 10px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-top: 18px;
+  margin-left: 10px;
+  margin-bottom: 10px;
+  font-weight: bold;
+}
+
+input[type=login] {
+ position: absolute;
+ left: 40px;
+ width: 175px;
+ height: 30px;
+ border: 1px solid #fda600;
+ border-radius: 4px;
+ margin-top: 18px;
+ box-sizing: border-box;
 }
